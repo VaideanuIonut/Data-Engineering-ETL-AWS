@@ -14,12 +14,17 @@ Load (L): Establishes a secure connection to the AWS RDS PostgreSQL instance usi
 
 ✅ Validation and Outcome
 The pipeline's success is validated through two key proofs: the correct cloud infrastructure setup and the final data integrity check.
+![]
 
 ☁️ AWS Infrastructure Proof
 The data target is a PostgreSQL instance configured on AWS RDS. This screenshot confirms the engine type and successful cloud setup:
 
+![AWS_proof](</aws_postgresql_instance_proof.png>)
+
 📊 Data Integrity Check
 The successful outcome of the ETL process is confirmed by viewing the clean, transformed data directly in the github_users table via the DBeaver SQL client.
+
+![Proof from DBeaver](</db_data_proof.png>)
 
 🐳 Containerization (Docker)
 The entire ETL workflow is containerized using Docker to ensure reproducibility across any environment. This demonstrates proficiency in packaging and deploying Data Engineering code.
