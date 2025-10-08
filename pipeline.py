@@ -6,10 +6,10 @@ import pandas as pd
 from sqlalchemy import create_engine
 import psycopg2
 
-# GitHub API Endpoint 
+
 API_URL = "https://api.github.com/users/octocat"
 
-# Folder for saving raw data
+
 DATA_FOLDER = "data"
 
 def extract_data(url):
